@@ -12,7 +12,7 @@ CONAN_BASIC_SETUP()
 file(GLOB header_files "src/*.h" "src/*.hpp")
 file(GLOB src_files "src/*.c" "src/*.cpp")
 
-ADD_EXECUTABLE(parse-json ${header_files} ${src_files})
+ADD_EXECUTABLE(cpp-lua-parser ${header_files} ${src_files})
 TARGET_LINK_LIBRARIES(cpp-lua-parser ${CONAN_LIBS})
 
 # Set the C++ version
