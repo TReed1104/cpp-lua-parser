@@ -7,4 +7,4 @@ ECHO - Cleaning Build Folder
 RD /s /q build
 
 ECHO - Cleaning Conan Cache
-conan remove * -f
+conan remove -f lua/5.3.4
